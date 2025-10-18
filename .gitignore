@@ -1,0 +1,28 @@
+/vendor
+/Weeek5/vendor
+/Week3/config_environment/vlucas_dotenv/vendor
+/Week3/Crud/vendor
+/Week3/MonoLog/vendor
+/Practice/vendor
+/composer/vendor
+/TEST/VALIDATOR/vendor
+/Week5/vendor
+/TEST/Project1/vendor
+/StringUtils/vendor
+/ConsumerApp/vendor
+
+# Laravel / PHP
+/vendor/
+node_modules/
+.env
+
+# Docker
+docker/data/
+docker/mysql/
+*.sock
+
+# OS / IDE junk
+.DS_Store
+Thumbs.db
+.vscode/
+Eureka_Login.txt

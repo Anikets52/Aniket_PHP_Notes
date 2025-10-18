@@ -1,0 +1,13 @@
+{
+    "name": "user/composer",
+    "autoload": {
+        "psr-4": {
+            "": "src/",
+            "Name\\name2\\": "src/test/",
+            "App\\": "src/App",
+            "Models\\": "src/Models",
+            "View\\": "src/View"
+        }
+    },
+    "require": {}
+}

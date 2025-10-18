@@ -1,0 +1,8 @@
+<?php
+return [
+    'APP_NAME' => "Aniket_App",
+    "DB_HOST" => "localhost",
+    "DB_USERNAME" => "root",
+    "DB_DATABASE" => "User",
+    "DB_PASSWORD" => ""
+];

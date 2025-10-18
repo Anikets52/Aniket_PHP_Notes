@@ -1,0 +1,33 @@
+{
+    "explorer.confirmDelete": false,
+    "phpserver.phpPath": "C:\\wamp64\\bin\\php\\php8.3.6\\php.exe",
+    "php-cs-fixer.rules": "@PSR12",
+    "editor.formatOnSave": true,
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "intelephense.files.associations": [
+        "*.php",
+        "*.phtml"
+    ],
+    "php.executablePath": "",
+    "phpsab.allowedAutoRulesets": [
+        ".phpcs.xml",
+        ".phpcs.xml.dist",
+        "phpcs.xml",
+        "phpcs.xml.dist",
+        "phpcs.ruleset.xml",
+        "ruleset.xml"
+    ],
+    "phpsab.standard": "PSR12",
+    "workbench.secondarySideBar.defaultVisibility": "visible",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "php": false
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.iconTheme": "material-icon-theme"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "aniket/crud",
+    "description": "crud operation",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "": ""
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}

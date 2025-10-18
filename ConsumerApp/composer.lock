@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "800cbe71af41c3dc43850e9624aafa24",
+    "packages": [
+        {
+            "name": "aniket/stringutils",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../StringUtils",
+                "reference": "d7992867ca8e99cfc69827645990d646e6b6b327"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Utils\\": "Utils/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aniket singh"
+                }
+            ],
+            "description": "its a string utility package",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "aniket/stringutils": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

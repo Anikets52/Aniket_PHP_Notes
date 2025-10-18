@@ -1,0 +1,54 @@
+# version: "3.8"
+services:
+  app:
+    build: .
+    container_name: php_app
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "3000:80"
+    depends_on:
+      - db
+    environment:
+      DOCKER_ENV: "1"
+
+  db:
+    image: mysql:8.0
+    container_name: mysql_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: mydb
+      MYSQL_USER: myuser
+      MYSQL_PASSWORD: mypass
+    volumes:
+      - ./data/mysql:/var/lib/mysql
+    ports:
+      - "3306:3306"
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: phpmyadmin
+    restart: always
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: db
+      PMA_PORT: 3306
+      MYSQL_USER: myuser
+      MYSQL_PASSWORD: mypass
+      MYSQL_ROOT_PASSWORD: rootpass
+    depends_on:
+      - db
+
+  backup:
+    image: mysql:8.0
+    container_name: mysql_backup
+    depends_on:
+      - db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+    volumes:
+      - ./backups:/backups
+    entrypoint: >
+      sh -c 'mysqldump -h db -u root -prootpass mydb > /backups/mydb.sql'

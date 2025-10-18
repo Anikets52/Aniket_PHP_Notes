@@ -1,0 +1,26 @@
+{
+    "name": "aniket/consumer-app",
+    "description": "Trial App to consume String Utility Package",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aniket Singh"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "aniket/stringutils": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../StringUtils"
+        }
+    ]
+}

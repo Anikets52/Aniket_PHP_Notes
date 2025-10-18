@@ -1,0 +1,12 @@
+[2025-09-22T06:48:46.616876+00:00] App.INFO: Aniket {"MESSAGE":"Database Failure","Status":600} {"ip":12}
+[2025-09-22T06:48:46.652344+00:00] App.WARNING: AniketW {"MESSAGE":"DatabaseW Failure","Status":400} {"ip":12}
+[2025-09-22T06:48:46.652424+00:00] App.ERROR: AniketE {"MESSAGE":"DatabaseE Failure","Status":300} {"ip":12}
+[2025-09-22T06:48:46.652482+00:00] App2.INFO: Aniket {"MESSAGE":"Database Failure","Status":600} []
+[2025-09-22T06:48:46.652534+00:00] App2.WARNING: AniketW {"MESSAGE":"DatabaseW Failure","Status":400} []
+[2025-09-22T06:48:46.652570+00:00] App2.ERROR: AniketE {"MESSAGE":"DatabaseE Failure","Status":300} []
+[2025-09-22T06:49:32.107205+00:00] App.INFO: Aniket {"MESSAGE":"Database Failure","Status":600} {"ips":12}
+[2025-09-22T06:49:32.107654+00:00] App.WARNING: AniketW {"MESSAGE":"DatabaseW Failure","Status":400} {"ips":12}
+[2025-09-22T06:49:32.107736+00:00] App.ERROR: AniketE {"MESSAGE":"DatabaseE Failure","Status":300} {"ips":12}
+[2025-09-22T06:49:32.107782+00:00] App2.INFO: Aniket {"MESSAGE":"Database Failure","Status":600} []
+[2025-09-22T06:49:32.107816+00:00] App2.WARNING: AniketW {"MESSAGE":"DatabaseW Failure","Status":400} []
+[2025-09-22T06:49:32.107847+00:00] App2.ERROR: AniketE {"MESSAGE":"DatabaseE Failure","Status":300} []

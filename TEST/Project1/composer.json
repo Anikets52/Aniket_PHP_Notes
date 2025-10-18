@@ -1,0 +1,26 @@
+{
+    "name": "aniket/project1",
+    "description": "hello mitar",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "aniket"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "aniket/validate": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../VALIDATOR"
+        }
+    ]
+}

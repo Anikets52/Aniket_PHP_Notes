@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2ecc8f9fe8d1c292be20afed591d071e",
+    "packages": [
+        {
+            "name": "aniket/validate",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../VALIDATOR",
+                "reference": "e77308336465cb9cbbc85d780713f00e7bef5d1c"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "App\\": "App/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aniket singh"
+                }
+            ],
+            "description": "hello world",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "aniket/validate": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
